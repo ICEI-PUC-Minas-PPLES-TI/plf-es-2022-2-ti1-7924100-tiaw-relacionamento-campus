@@ -1,21 +1,8 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-`CURSO` 
-
-......  COLOQUE AQUI O SEU TEXTO ......
+RELACIONAMENTO NO CAMPUS
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+Welbert Luiz Silva
 
 # Estrutura do Documento
 
@@ -53,6 +40,9 @@
 
 
 # Introdução
+Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (OPAS,2022). Como forma de contensão da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e escolas. Em Belo horizonte, a restrição das atividades presencias nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e Secretaria Municipal de Educação (SMED/BH). 
+Atualmente, com o avanço vacinação o afastamento social não é mais necessário. A retomada das atividades presenciais já uma realidade dos diversos setores da economia. Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica.  Isso se deve fundamentalmente à dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das instituições de ensino de ainda incentivar a aglomeração de pessoas.
+Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas.
 
 ## Problema
 
@@ -74,9 +64,6 @@
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
-Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (OPAS,2022). Como forma de contensão da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e escolas. Em Belo horizonte, a restrição das atividades presencias nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e Secretaria Municipal de Educação (SMED/BH). 
-Atualmente, com o avanço vacinação o afastamento social não é mais necessário. A retomada das atividades presenciais já uma realidade dos diversos setores da economia. Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica.  Isso se deve fundamentalmente à dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das instituições de ensino de ainda incentivar a aglomeração de pessoas.
-Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas.
 
 
 ## Objetivos
@@ -157,31 +144,15 @@ Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais
 > 
 > 
 > **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
+História do usuário 1
+Título da história, redução de custos
+Como aluno vindo do interior, eu quero melhorar o meu relacionamento com os meus colegas universitários para conhecer mais a cidade, reduzir os custos de estadia na região metropolitana de Belo Horizonte, buscar uma colocação no mercado.
 
-## Histórias de Usuários
+História do usuário 2
+Título da história, novas amizades
+Como aluna moradora da região, eu quero melhorar meu relacionamento com os meus colegas para conhecer novas pessoas, expor as minhas ideias, participar de festas e baladas, envolver-me em atividades voluntárias e complementares à minha formação.
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 ## Requisitos
 
