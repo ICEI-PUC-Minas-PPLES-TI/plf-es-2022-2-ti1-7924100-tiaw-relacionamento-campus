@@ -68,11 +68,16 @@
 > Nesse momento, o grupo pode optar por fazer uso
 > de ferramentas como Design Thinking, que permite um olhar de ponta a
 > ponta para o problema.
->
+> >
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
+Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (OPAS,2022). Como forma de contensão da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e escolas. Em Belo horizonte, a restrição das atividades presencias nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e Secretaria Municipal de Educação (SMED/BH). 
+Atualmente, com o avanço vacinação o afastamento social não é mais necessário. A retomada das atividades presenciais já uma realidade dos diversos setores da economia. Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica.  Isso se deve fundamentalmente à dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das instituições de ensino de ainda incentivar a aglomeração de pessoas.
+Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas.
+
 
 ## Objetivos
 
