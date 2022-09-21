@@ -40,11 +40,14 @@ Welbert Luiz Silva
 
 
 # Introdução
-Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (OPAS,2022). Como forma de contensão da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e escolas. Em Belo horizonte, a restrição das atividades presencias nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e Secretaria Municipal de Educação (SMED/BH). 
-Atualmente, com o avanço vacinação o afastamento social não é mais necessário. A retomada das atividades presenciais já uma realidade dos diversos setores da economia. Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica.  Isso se deve fundamentalmente à dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das instituições de ensino de ainda incentivar a aglomeração de pessoas.
-Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas.
+Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (OPAS,2022). Como forma de contenção da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e escolas. Em Belo Horizonte, a restrição das atividades presenciais nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e Secretaria Municipal de Educação (SMED/BH). Atualmente, com o avanço da vacinação, o afastamento social não é mais necessário. A retomada das atividades presenciais já é uma realidade nos diversos setores da economia. Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica. Isso se deve fundamentalmente a dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das instituições de ensino de ainda incentivar a aglomeração de pessoas. Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. Dessa forma, faz-se necessário que haja uma solução capaz de diminuir esse gap nas relações entre os alunos.
+
+Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas.
+
 
 ## Problema
+
+Conforme exposto, o problema que o trabalho visa solucionar é a dificuldade de relacionamento entre os alunos da PUC e a consequente dificuldade de acesso e troca de informações, fomentada pelo contato entre os estudantes.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -67,6 +70,9 @@ Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais
 
 
 ## Objetivos
+
+O objetivo geral deste trabalho é o desenvolvimento de uma ferramenta online para facilitar a integração e relacionamento de calouros da PUC Minas, disponibilizando o perfil dos alunos e facilitando, assim, a troca de informações e a construção de relações mais sólidas. Mais especificamente, compreender as dificuldades de integração dos novos alunos, priorizar as principais demandas, desenvolver as soluções e verificar os resultados da implementação.
+
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
@@ -96,6 +102,8 @@ Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
+
+Ainda que seja uma plataforma que possa ser adaptada para diversos contextos, o foco do trabalho está para o público que, em uma universidade, carece de contato com os colegas de trabalho e de eventos de integração promovidos por veteranos, pela universidade e pelos próprios calouros. Dessa forma, traçou-se como público alvo da ferramenta os alunos novatos do curso de Engenharia de Software da PUC Minas.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
