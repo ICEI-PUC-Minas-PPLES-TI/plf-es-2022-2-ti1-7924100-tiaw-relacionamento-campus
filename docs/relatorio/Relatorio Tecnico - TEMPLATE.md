@@ -1,7 +1,12 @@
 # Informações do Projeto
-RELACIONAMENTO NO CAMPUS
+PUCMATCH
 
 ## Participantes
+Bernardo
+Leo
+Lucas
+JL
+Tiago Assunção de Sousa
 Welbert Luiz Silva
 
 # Estrutura do Documento
