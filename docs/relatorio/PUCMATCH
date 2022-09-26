@@ -1,9 +1,14 @@
 # Informações do Projeto
 RELACIONAMENTO NO CAMPUS
+NOME: PUCMatch
 
 ## Participantes
+Bernardo Cavanellas Biondini	
+João Lucas Santos Guimarães Marra
+Leonardo César da Silva
+Lucas Bagno Morais Lobato
+Tiago Assunção de Sousa 
 Welbert Luiz Silva
-Tiago Assunção de Sousa
 
 # Estrutura do Documento
 
@@ -41,291 +46,210 @@ Tiago Assunção de Sousa
 
 
 # Introdução
-Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (OPAS,2022). Como forma de contensão da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e escolas. Em Belo horizonte, a restrição das atividades presencias nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e Secretaria Municipal de Educação (SMED/BH). 
-Atualmente, com o avanço vacinação o afastamento social não é mais necessário. A retomada das atividades presenciais já uma realidade dos diversos setores da economia. Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica.  Isso se deve fundamentalmente à dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das instituições de ensino de ainda incentivar a aglomeração de pessoas.
-Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas.
+  Em 30 de janeiro de 2020, a OMS declarou que o surto do novo coronavírus constitui uma Emergência de Saúde Pública de Importância Internacional (ESPII) – 
+o mais alto nível de alerta da Organização, conforme previsto no Regulamento Sanitário Internacional (FIOCRUZ, 2020). 
+  Como forma de contenção da proliferação do vírus, a Pandemia do Covid 2018 impôs à sociedade o afastamento social e consequentemente o fechamento do comércio e 
+ escolas.
+  Em Belo Horizonte, a restrição das atividades presenciais nas universidades foi regulamentada pelo Decreto nº 17.304, de 18 de março de 2020 e 
+Secretaria Municipal de Educação (SMED/BH). 
+  Atualmente, com o avanço da vacinação, o afastamento social não é mais necessário. A retomada das atividades presenciais já é uma realidade nos diversos setores 
+da economia. 
+  Porém, antigas práticas de socialização e atividades de relacionamento ainda não retornaram no mesmo ritmo da abertura econômica. 
+  Isso se deve fundamentalmente a dois fatores, primeiro os traumas gerados pelas mortes de parentes e pessoas próximas e segundo pela insegurança das 
+instituições de ensino de ainda incentivar a aglomeração de pessoas. 
+  Por outro lado, nesse cenário pós pandêmico novos alunos demandam, ainda mais a necessidade de relacionamento quer seja pela ansiedade gerada pelo 
+período de isolamento social ou pela necessidade de informação de forma mais ágil gerada pelo uso intensivo de novas tecnologias imposta pela restrição social. 
+  Dessa forma, faz-se necessário que haja uma solução capaz diminuir esse gap nas relações entre os alunos.
+Esse trabalho visa suprir os calouros de ferramentas de tecnologia para melhorar o relacionamento social no Campus da Praça da Liberdade do PUC-Minas
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  Conforme exposto, o problema que o trabalho visa solucionar é a dificuldade de relacionamento entre os alunos da PUC e a consequente dificuldade de 
+acesso e troca de informações, fomentada pelo contato entre os estudantes.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
-> >
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  O objetivo geral deste trabalho é o desenvolvimento de uma ferramenta online para facilitar a integração e relacionamento de calouros da PUC Minas, 
+disponibilizando o perfil dos alunos e facilitando, assim, a troca de informações e a construção de relações mais sólidas. 
+  Mais especificamente:
+•	compreender as dificuldades de integração dos novos alunos; 
+•	priorizar as principais demandas;
+•	desenvolver uma solução de tecnologia que melhore o relacionamento dos alunos; e 
+•	verificar os resultados da implementação.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  Estudo realizado pelo Grupo de Pesquisa-Avaliação em Bem-Estar e Saúde Mental da PUCRS, apontou que a pandemia da Covid-19 afetou imensamente a saúde mental da 
+comunidade universitária (SUNDE, 2022). A partir da análise de 600 artigos sobre o tema, a pesquisa aponta que a suspensão das atividades presenciais durante a 
+pandemia comprometeu com os programas curriculares, expectativas dos estudantes e professores, criou na população universitária um clima de ansiedade, de estresse e 
+de medo de contaminação pelo vírus. Como resposta a esse cenária a autora descreve que: 
+“Os problemas psicológicos desenvolvidos durante a pandemia e em outras circunstâncias da vida, podem encontrar respostas dentro da academia se as instituições 
+estiverem preparadas, com projetos e programas de intervenção psicossocial e profissionais disponíveis para atender e acompanhar a saúde da comunidade.”  
+(SUNDE, 2022 p12).
+  Nesse sentido, esse projeto contribui com a comunidade acadêmica da PUC-Minas ao ofertar uma ferramenta de tecnologia que pode ser utilizada para reduzir a ansiedade,
+facilitar o relacionamento e repassar informações seguras e confiáveis a partir das demandas reais dos alunos.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+  Ainda que seja uma plataforma que possa ser adaptada para diversos contextos, o foco do trabalho está para o público que, em uma universidade, carece de contato com os
+colegas de trabalho e de eventos de integração promovidos por veteranos, pela universidade e pelos próprios calouros. 
+  Dessa forma, traçou-se como público alvo da ferramenta os alunos novatos do curso de Engenharia de Software da PUC Minas.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A compreensão mais detalhada do projeto foi desenvolvida a partir da observação de campo e entrevista qualitativa com cinco alunos do curso de Engenharia de Software.
+Para aprofundar a compreensão foi realizada uma pesquisa quantitativa utilizado o Google Forms que foi respondido por xx alunas e alunos.
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Personas
+O quadro abaixo apresenta as personas que sintetizam o perfil dos usuários do software a ser desenvolvido.
+
+Identificação: Pedro Sampaio, 21 anos, estudante.
+	Personalidade: Introvertido, amigável, criativo, persistente, calmo e atencioso.
+	Hobby: Ver filmes, ouvir e tocar música, cozinhar, jogar jogos online, ler livros de mistério.
+	Origem:  Araxá – Minas Gerais
+	Objetivos Chave: Atualmente residente em Belo Horizonte, busca novas amizades e informações para que possa reduzir os custos de estadia da RMBH, informações sobre a cidade e oportunidades de emprego ou estágio.
+
+ 	Identificação: Letícia Sheffer, 18 anos, estudante.
+	Personalidade: Sociável, simpática, extrovertida, amigável, curiosa e exploradora.
+	Hobby: Sair com os amigos, ir a festas e bares, passear no shopping e fazer compras, ver séries.
+	Origem:  Belo Horizonte – Minas Gerais
+	Objetivos Chave: Recém saída de uma escola particular de Belo Horizonte, busca na universidade para aumentar a sua rede de relacionamento e explorar mais o mundo ao seu redor.
 
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
 
-História do usuário 1
-Título da história, redução de custos
-Como aluno vindo do interior, eu quero melhorar o meu relacionamento com os meus colegas universitários para conhecer mais a cidade, reduzir os custos de estadia na região metropolitana de Belo Horizonte, buscar uma colocação no mercado.
+## Histórias de Persona
 
-História do usuário 2
-Título da história, novas amizades
-Como aluna moradora da região, eu quero melhorar meu relacionamento com os meus colegas para conhecer novas pessoas, expor as minhas ideias, participar de festas e baladas, envolver-me em atividades voluntárias e complementares à minha formação.
+A partir da compreensão das demandas e interesses de cada uma das personas foi traçado a história dos usuários que pode ser sintetizada conforme quadros abaixo.
+ 	
+  Título da história: redução de custos
+	Eu como: Pedro Sampaio, 21 anos, estudante vindo do interior
+	Quero/desejo: melhorar o meu relacionamento com os meus colegas universitários
+	Para: conhecer mais a cidade, reduzir os custos de estadia na região metropolitana de Belo Horizonte, buscar uma colocação no mercado.
 
+
+ 	Título da história: novas amizades
+	Eu como: Letícia Sheffer, 18 anos, estudante que moro em BH.
+	Quero/desejo: melhorar o meu relacionamento com os meus colegas universitários
+	Para: conhecer novas pessoas, expor as minhas ideias, participar de festas e baladas, envolver-me em atividades voluntárias e complementares à minha formação.
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não 
+funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir:
 
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+## Requisitos Funcionais
+    Os requisitos funcionais se caracterizam por ser problemas e necessidades que devem ser resolvidos pelo software que será desenvolvido. A tabela a seguir 
+    apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues:
 
 
-### Requisitos não Funcionais
+ID	  |Descrição	                                                                                                                        |Prioridade
+RF-01	|O site deve permitir o cadastramento de usuários (API).	                                                                          |Alta
+RF-02	|O usuário deve poder alterar suas informações do perfil (API).	                                                                    |Alta
+RF-03	|O site deve apresentar na página principal os cards dos usuários, com suas informações principais (perfis) - (API).	              |Alta
+RF-04	|O site deve permitir a visualização dos eventos marcados na página de eventos. (API)	                                              |Média
+RF-05	|O usuário deve poder criar um evento	                                                                                              |Média
+RF-06	|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário encontrar pessoas com os mesmos interesses	    |Baixa
+RF-07	|O site deve permitir a conexão com usuários.	                                                                                      |Baixa
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
+## Requisitos Não Funcionais
+Requisitos não funcionais referem aos os requisitos relacionados ao desempenho, usabilidade, segurança, manutenção entre outros. 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
+
+ID	    |Descrição	                                                                                                        |Prioridade
+RNF-01	|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); 	    |Alta
+RNF-02	|O site deverá ser responsivo permitindo a visualização em um celular de forma adequada	                            |Alta
+RNF-03	|O site deve ter bom nível de contraste entre os elementos da tela em conformidade 	                                |Média
+RNF-04	|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)	      |Alta
+
 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+Consideramos como restrições do projeto, os fatores que limitam ou que podem interromper a execução do projeto. 
+A tabela abaixo apresenta as principais restrições identificadas:
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+ID	    |Descrição
+RE-01	  |O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 04/12/2022.
+RE-02	  |A equipe não pode subcontratar o desenvolvimento do trabalho.
 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
 
 ......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+
 
 ## User Flow
 
 ......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+
 
 
 ## Wireframes
 
 ......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para desenvolver as atividades previstas no projeto, a metodologia de trabalho se baseou nas seguintes atividades:
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+1º. entendimento no escopo e objetivos do trabalho interdisciplinar;
+2º. apresentação dos membros da equipe de trabalho;
+3º. definição dos principais problemas relacionados à solução a ser desenvolvida;
+4º. realização de pesquisa de campo;
+5º. tratamentos dos dados;
+6º  elaboração do design da solução;
+7º. apresentação da documentação inicial do projeto;
+
+
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe está organizada da seguinte maneira:
+●	Scrum Master: Welbert Luiz
+●	Product Owner: Tiago Assunção de Sousa 
+●	Equipe de Desenvolvimento
+  ○	Bernardo Cavanellas Biondini (Designer)	
+  ○	João Lucas Santos Guimarães Marra (Analista de Negócios)
+  ○	Leonardo César da Silva (Desenvolvedor Front End)
+  ○	Lucas Bagno Morais Lobato (Desenvolvedor Back End)
+
+
 
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Para desenvolver a solução desse projeto foram utilizados os recursos relacionados no quadro abaixo:
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+| Ambiente                                  | Plataforma                  |Link de Acesso 
+| Processo de Design Thinking               | Miro                        | https://miro.com/app/board/uXjVPXwnrX4=/ 
+| Repositório de código                     | GitHub                      | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti1-7924100-tiaw-relacionamento 
+| Hospedagem do site                        | Heroku                      | https://XXXXXXX.herokuapp.com  
+| Protótipo Interativo                      | MavelApp ou Figma           | https://www.figma.com/file/yzDQvrt7degc3duU1INpfe/PUC-MATCH?node-id=0%3A1 
+| Documentros do Projeto                    | Google Drive                | https://docs.google.com/document/d/1993p6NchZYCEtxI2qbNv47MWcoXw1SXAnBUJ-ka5qdk/edit?usp=sharing
+| Gerenciamento do Projeto                  | Trello                      | https://trello.com/b/7MgDa61G/kanban-para-relacionamento-no-campus
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
