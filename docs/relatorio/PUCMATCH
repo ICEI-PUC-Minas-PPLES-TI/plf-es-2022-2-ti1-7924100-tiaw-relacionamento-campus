@@ -108,14 +108,16 @@ colegas de trabalho e de eventos de integração promovidos por veteranos, pela 
 A compreensão mais detalhada do projeto foi desenvolvida a partir da observação de campo e entrevista qualitativa com cinco alunos do curso de Engenharia de Software.
 Para aprofundar a compreensão foi realizada uma pesquisa quantitativa utilizado o Google Forms que foi respondido por xx alunas e alunos.
 
-
+# Partes interessadas
+Entre as principais partes interessadas nesse projeto temos como grupo fundamental os alunos calouros da PUC-Minas que demandam informações e possuem uma forte necessidade de relacionamento para a seguir na vida acadêmica.
+Como partes interessadas importantes identificamos os alunos veteranos, os funcionários da secretaria e da segurança que tem suas atividades de rotina afetadas pela forte demanda de informação nos novos alunos. Para finalizar, destacamos como partes interessadas influenciadoras os comerciantes da região que demanda de informação sobre os novos alunos a universidade para realizar os seus negócios.
 
 ## Personas e Mapas de Empatia
 
 Personas
 O quadro abaixo apresenta as personas que sintetizam o perfil dos usuários do software a ser desenvolvido.
 
-Identificação: Pedro Sampaio, 21 anos, estudante.
+	Identificação: Pedro Sampaio, 21 anos, estudante.
 	Personalidade: Introvertido, amigável, criativo, persistente, calmo e atencioso.
 	Hobby: Ver filmes, ouvir e tocar música, cozinhar, jogar jogos online, ler livros de mistério.
 	Origem:  Araxá – Minas Gerais
@@ -154,14 +156,14 @@ funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira
     apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues:
 
 
-ID	  |Descrição	                                                                                                                        |Prioridade
-RF-01	|O site deve permitir o cadastramento de usuários (API).	                                                                          |Alta
+ID	  |Descrição	                                                                                                                    |Prioridade
+RF-01	|O site deve permitir o cadastramento de usuários (API).	                                                                    |Alta
 RF-02	|O usuário deve poder alterar suas informações do perfil (API).	                                                                    |Alta
-RF-03	|O site deve apresentar na página principal os cards dos usuários, com suas informações principais (perfis) - (API).	              |Alta
-RF-04	|O site deve permitir a visualização dos eventos marcados na página de eventos. (API)	                                              |Média
-RF-05	|O usuário deve poder criar um evento	                                                                                              |Média
+RF-03	|O site deve apresentar na página principal os cards dos usuários, com suas informações principais (perfis) - (API).	            |Alta
+RF-04	|O site deve permitir a visualização dos eventos marcados na página de eventos. (API)	                                            |Média
+RF-05	|O usuário deve poder criar um evento	                                                                                            |Média
 RF-06	|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário encontrar pessoas com os mesmos interesses	    |Baixa
-RF-07	|O site deve permitir a conexão com usuários.	                                                                                      |Baixa
+RF-07	|O site deve permitir a conexão com usuários.	                                                                                    |Baixa
 
 
 
@@ -169,11 +171,11 @@ RF-07	|O site deve permitir a conexão com usuários.	                          
 Requisitos não funcionais referem aos os requisitos relacionados ao desempenho, usabilidade, segurança, manutenção entre outros. 
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender:
 
-ID	    |Descrição	                                                                                                        |Prioridade
+ID	    |Descrição	                                                                                                    |Prioridade
 RNF-01	|O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); 	    |Alta
 RNF-02	|O site deverá ser responsivo permitindo a visualização em um celular de forma adequada	                            |Alta
-RNF-03	|O site deve ter bom nível de contraste entre os elementos da tela em conformidade 	                                |Média
-RNF-04	|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)	      |Alta
+RNF-03	|O site deve ter bom nível de contraste entre os elementos da tela em conformidade 	                            |Média
+RNF-04	|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)	    |Alta
 
 
 
@@ -182,7 +184,7 @@ RNF-04	|O site deve ser compatível com os principais navegadores do mercado (Go
 Consideramos como restrições do projeto, os fatores que limitam ou que podem interromper a execução do projeto. 
 A tabela abaixo apresenta as principais restrições identificadas:
 
-ID	    |Descrição
+ID	  |Descrição
 RE-01	  |O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 04/12/2022.
 RE-02	  |A equipe não pode subcontratar o desenvolvimento do trabalho.
 
@@ -204,9 +206,6 @@ A figura abaixo exemplifica o esquema de navegação do aplicativo e é possíve
 ## Wireframes
 
 A realização do protótipo acima se deu pela a elaboração de wireframes que deram forma e auxiliaram na elaboração das páginas.
-
-![Wireframe](./images/wireframe.jpeg)
-
 
 
 # Metodologia
@@ -367,11 +366,8 @@ Para desenvolver a solução desse projeto foram utilizados os recursos relacion
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+DOMINGUEZ, Bruno et al. Alerta global: novo coronavírus é a sexta emergência em saúde pública de importância internacional declarada pela OMS. FIOCRUZ, p.1 – 8, 2020.
+SUNDE, Rosário Martinho. Saúde Mental da comunidade universitária na pós-pandemia: desafios e perspectivas. PSI UNISC, v. 6, n. 2, p. 128-142, 2022. 
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+
+
