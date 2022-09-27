@@ -22,10 +22,10 @@ Welbert Luiz Silva
   - [Público-Alvo](#público-alvo)
 - [Especificações do Projeto](#especificações-do-projeto)
   - [Personas e Mapas de Empatia](#personas-e-mapas-de-empatia)
-  - [Histórias de Usuários](#histórias-de-usuários)
+  - [Histórias de Persona](#histórias-de-persona)
   - [Requisitos](#requisitos)
-    - [Requisitos Funcionais](#requisitos-funcionais)
-    - [Requisitos não Funcionais](#requisitos-não-funcionais)
+  - [Requisitos Funcionais](#requisitos-funcionais)
+  - [Requisitos Não Funcionais](#requisitos-não-funcionais)
   - [Restrições](#restrições)
 - [Projeto de Interface](#projeto-de-interface)
   - [User Flow](#user-flow)
@@ -190,21 +190,22 @@ RE-02	  |A equipe não pode subcontratar o desenvolvimento do trabalho.
 
 
 # Projeto de Interface
-
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+O projeto preocupa com a experiência de usuário e a usabilidade geral do aplicativo. Dessa forma, foi criada uma identidade visual descontraída, simples e intuitiva, presente em todas as páginas do protótipo.
 
 
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+A figura abaixo exemplifica o esquema de navegação do aplicativo e é possível visualizar o projeto no figma. <a href="https://www.figma.com/file/yzDQvrt7degc3duU1INpfe/PUC-MATCH">Link do projeto no figma</a>
 
 
-
+![Imagem Fluxo](./images/fluxo.jpg)
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+A realização do protótipo acima se deu pela a elaboração de wireframes que deram forma e auxiliaram na elaboração das páginas.
+
+![Wireframe](./images/wireframe.jpeg)
 
 
 
