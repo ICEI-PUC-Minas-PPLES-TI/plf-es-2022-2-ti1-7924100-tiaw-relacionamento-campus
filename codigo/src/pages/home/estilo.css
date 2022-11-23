@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.filtros {
+  margin: 20px 0 0 60px ;
+}
+
+.filtros p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.interesses {
+  display: flex;
+  flex-direction: row;
+  
+  gap: 20px;
+}
+
+.interesses button {
+  border-radius: 20px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+.home-container{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+
+.home-amigos {
+  flex: 1;
+  padding: 50px;
+}
+
+.amigos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.amigo-card {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  /* gap: 20px; */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  background-color: rgb(20, 230, 150);
+}
+
+.amigo-card .amigo-info {
+
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.amigo-info img {
+  margin-right: 10px;
+  max-height: 40px;
+  max-width: 40px;
+  border-radius: 50%;
+}
+
+.amigo-info h4 {
+  font-size: 16px;
+}
+
+.amigo-card p {
+  margin-right: auto;
+  flex: 1;
+  margin-top: 6px;
+}
+
+.home-amigos .btn {
+  margin: -15px 0 20px 10px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:750px){
+  .home-container {
+    flex-direction: column;
+  }
+
+  .interesses {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .interesses button {
+    width: 90%;
+  }
+}

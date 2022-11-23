@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <script src="../../database/database.js"></script>
+
+  <title>PUCMATCH</title>
+</head>
+
+<body>
+  <main class="sigin-main">
+    <img src="../../assets/images/logo.jpg" alt="">
+    <form action="" id="user-sigin" >
+      
+<!--       <label id="label-pic" for="user-picture">Foto de Perfil*</label>
+      <input form="user-sigin" type="file" name="user-picture" id="user-picture" accept="image/*"  > -->
+
+      <!-- <div class="profile-picture">
+        <label id="label-pic" for="user-picture"><span>Foto de Perfil*</span></label>
+        <input form="user-sigin" type="file" name="user-picture" id="user-picture" accept="image/*" >
+        <img src="" alt="" id="selected-picture">
+      </div> -->
+      
+
+      <label for="user-name">Nome*</label>
+      <input form="user-sigin" type="text" name="user-name" id="user-name" required placeholder="Digite seu nome Completo" >
+
+      <label for="user-email">Email*</label>
+      <input form="user-sigin" type="email" name="user-email" id="user-email" required placeholder="Digite seu email">
+
+      <label for="user-password">Senha*</label>
+      <input form="user-sigin" type="password" name="user-password" id="user-password" required minlength="8" title="A senha deve ter pelo menos 8 caracteres" placeholder="Digite sua senha" >
+
+      <label for="user-area">Região*</label>
+      <input form="user-sigin" type="text" name="user-area" id="user-area" required pattern="[a-zA-Z]+" title="Utilize apenas letras" placeholder="Digite a região onde você mora">
+
+      <label for="user-birth">Nascimento*</label>
+      <input form="user-sigin" type="date" name="user-birth" id="user-birth" required >
+
+      <label for="user-sexuality">Sexualidade</label>
+      <select form="user-sigin" name="user-sexuality" id="user-sexuality">
+        <option value="NI" selected>Não Informado</option>
+        <option value="Hetero" >Hetero</option>
+        <option value="Homossexual" >Homossexual</option>
+        <option value="Bissexual" >Bissexual</option>
+        <option value="Pansexual" >Pansexual</option>
+      </select>
+
+      <label for="user-insta">Instagram*</label>
+      <input title="Digite o nome do usuário sem o @" form="user-sigin" type="text" name="user-insta" id="user-insta" required pattern="[^@]+" placeholder="Digite o seu user do Instagram (sem @)" >
+
+      <label for="user-number">Numero de Telefone</label>
+      <input form="user-sigin" type="text" name="user-number" id="user-number" placeholder="(dd) xxxxx-xxxx" 
+      pattern="\([1-9]{2}\) 9[0-9]{4}-[0-9]{4}" title="Use o formato (dd) xxxxx-xxxx" >
+
+
+      <!-- <input type="select" name="user-interests" id="user-interests" data-dropdown="true" multiple > -->
+
+      <div class="multiselect-form">
+        <fieldset>
+          <legend>Interesses*</legend>
+          
+          <div>
+            <input form="user-sigin" id="drive-interest" type="checkbox" value="1" name="interests[]">
+            <label for="happy-hour-interest">Carona</label>
+          </div>
+          
+          <div>
+            <input form="user-sigin" id="relationship-interest" type="checkbox" value="2" name="interests[]">
+            <label for="drive-interest">Relacionamento</label>
+          </div>
+          
+          <div>
+            <input form="user-sigin" id="happy-hour-interest" type="checkbox" value="3" name="interests[]">
+            <label for="game-interest">Happy Hour</label>
+          </div>
+          
+          <div>
+            <input form="user-sigin" id="sports-interest" type="checkbox" value="4" name="interests[]">
+            <label for="help-interest">Prática de esportes</label>
+          </div>
+
+          <div>
+            <input form="user-sigin" id="study-interest" type="checkbox" value="5" name="interests[]">
+            <label for="help-interest">Estudos</label>
+          </div>
+
+          <div>
+            <input form="user-sigin" id="game-interest" type="checkbox" value="6" name="interests[]">
+            <label for="help-interest">Jogos</label>
+          </div>
+        </fieldset>
+  
+        <fieldset>
+          <legend>Hobbies*</legend>
+  
+          <div>
+            <input form="user-sigin" id="game-hobbie" type="checkbox" value="1" name="hobbies[]">
+            <label for="game-hobbie">Jogos</label>
+          </div>
+          <div>
+            <input form="user-sigin" id="movies-hobbie" type="checkbox" value="2" name="hobbies[]">
+            <label for="movies-hobbie">Filmes e séries</label>
+          </div>
+          <div>
+            <input form="user-sigin" id="soccer-hobbie" type="checkbox" value="3" name="hobbies[]">
+            <label for="movies-hobbie">Futebol</label>
+          </div>
+          <div>
+            <input form="user-sigin" id="new-places-hobbie" type="checkbox" value="4" name="hobbies[]">
+            <label for="movies-hobbie">Conhecer novos lugares</label>
+          </div>
+          <div>
+            <input form="user-sigin" id="dance-hobbie" type="checkbox" value="5" name="hobbies[]"> 
+            <label for="dance-hobbie">Dança</label>
+          </div>
+          <div>
+            <input form="user-sigin" id="add-hobbie" type="checkbox" value="6" name="hobbies[]" >
+            <label for="add-hobbie">Outro</label>
+            <input form="user-sigin" id="another-hobbie" type="text" name="hobbies[]"> 
+          </div>
+        </fieldset>
+      </div>
+
+      <button form="user-sigin" type="submit" >Cadastrar</button>
+    </form>
+  </main>
+  <script src="./cadastro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Eventos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="../../assets/header/style.css">
+    <script src="../../database/database.js" ></script>
+</head>
+
+
+
+<body onload="int()">
+
+    <header class="header">
+
+        <nav>
+          <img src="../../assets/images/logoVazada.jpg" class="logo">
+    
+          <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../eventos/lista_eventos.html">Eventos</a></li>
+            <li><a href="../perfil/user.html">Perfil</a></li>
+          </ul>
+        </nav>
+    
+    </header>
+
+
+
+    <h3>Cadastro de eventos</h3>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Evento não encontrado.</div>-->
+            </div>
+        </div>
+
+        
+        <form id="form-texto">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="inputId">Id</label>
+                    <input type="text" class="form-control" id="inputId" placeholder="ID" disabled>
+                </div>
+                <div class="col-sm-8">
+                    <label for="inputNome">Nome (*)</label>
+                    <input type="text" class="form-control" id="inputNome" required placeholder="Informe o nome do artigo">
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <div class="col-sm-5">
+                    <label for="inputTelefone">Telefone (*)</label>
+                    <input type="text" class="form-control" id="inputTelefone" required placeholder="Telefone">
+                </div>
+                <div class="col-sm-7">
+                    <label for="inputEmail">E-mail (*)</label>
+                    <input type="email" class="form-control" id="inputEmail" required placeholder="Informe o e-mail">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-6">
+                    <label for="inputCidade">Campi/Unidades</label>                    
+                    <input type="text" class="form-control" id="inputCidade" placeholder="Informe a cidade onde o texto foi redigido" >
+                </div>
+                <div class="col-sm-6">
+                    <label for="inputCategoria">Categoria</label>
+                    <input type="text" class="form-control" id="inputCategoria" required placeholder="Informe a categoria do texto">
+                </div>
+            </div>
+            <div class="form-group row">    
+                <div class="col-sm-12">
+                    <label for="inputTexto">Descrição do evento</label>
+                    <input type="text" class="form-control" id="inputTexto" required placeholder="Texto">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <small>(*) Campos obrigatórios</small>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Inserir">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar Form">
+                    <a href="lista_eventos.html"><input type="button" class="btn btn-warning" id="btnClear" value="Pesquisar Eventos"></a>
+                </div>
+            </div>
+        </form>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <table id="grid-textos" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Telefone</th>
+                            <th scope="col">E-mail</th>
+                            <th scope="col">Campi/Unidades</th>
+                            <th scope="col">Categoria</th>
+                            <th scope="col">Texto</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-textos">
+                        <tr>
+                            <td scope="row">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function exibeTextos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-textos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.events.length; i++) {
+                let texto = db.events[i];    
+                $("#table-textos").append(`<tr><td scope="row">${texto.id}</td>
+                                                <td>${texto.nome}</td>
+                                                <td>${texto.telefone}</td>
+                                                <td>${texto.email}</td>
+                                                <td>${texto.cidade}</td>
+                                                <td>${texto.categoria}</td>
+                                                <td>${texto.texto}</td>
+                                            </tr>`);
+            }
+        }
+
+        function int() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-texto')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#inputNome").val();
+                let campoTelefone = $("#inputTelefone").val();
+                let campoEmail = $('#inputEmail').val();
+                let campoCidade = $("#inputCidade").val();
+                let campoCategoria = $('#inputCategoria').val();
+                let campoTexto = $('#inputTexto').val();
+                let texto = { nome: campoNome, 
+                    telefone: campoTelefone, 
+                    email: campoEmail, 
+                    cidade: campoCidade, 
+                    categoria: campoCategoria,
+                    texto: campoTexto };
+
+                insertTexto(texto);
+
+                // Reexibe os textos
+                exibeTextos();
+
+                // Limpa o formulario
+                $("#form-texto")[0].reset();
+            });
+
+
+
+
+            // Intercepta o click do botão Listar Textos
+            $("#btnClear").click(function () {
+                $("#form-texto")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-textos").on("click", "tr", function (e) {
+                let linhaTexto = this;
+                colunas = linhaTexto.querySelectorAll("td");
+
+                $("#inputId").val(colunas[0].innertext);
+                $("#inputNome").val(colunas[1].innertext);
+                $("#inputTelefone").val(colunas[2].innertext);
+                $("#inputEmail").val(colunas[3].innertext);
+                $("#inputCidade").val(colunas[4].innertext);
+                $("#inputCategoria").val(colunas[5].innertext);
+                $("#inputTexto").val(colunas[6].innertext);
+            });
+
+            exibeTextos();
+        }
+    </script>
+</body>
+
+
+<footer class="container footer">
+    <div class="row">
+      <div class="col-12">
+        <img src="../../assets/images/logoVazada.jpg" class="logo">
+
+      </div>
+    </div>
+
+</footer>
+
+
+
+
+</html>

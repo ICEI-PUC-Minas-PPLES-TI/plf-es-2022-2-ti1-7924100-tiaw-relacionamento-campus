@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <script src="./src/database/database.js"></script>
+
+  <title>PUCMATCH</title>
+</head>
+
+<body>
+  
+  <main class="login-main">
+    <img src="./src/assets/images/logo.jpg" alt="">
+    <form action="" id="user-login" >
+
+      <label for="user-email-login">Email</label>
+      <input form="user-login" type="email" name="user-email-login" id="user-email-login" required placeholder="Digite seu email">
+
+      <label for="user-password-login">Senha</label>
+      <input form="user-login" type="password" name="user-password-login" id="user-password-login" required minlength="8" title="A senha deve ter pelo menos 8 caracteres" placeholder="Digite sua senha" >
+
+      <a href="./src/pages/cadastro/cadastro.html" >Não tem cadastro?</a>
+      <button form="user-login" type="submit" >Fazer login</button>
+    </form>
+  </main>
+
+  <script> 
+    let form = document.getElementById('user-login');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      let user_email = document.getElementById('user-email-login').value;
+      let user_password = document.getElementById('user-password-login').value;
+
+      db.users.forEach(user => {
+        if(user.email == user_email) {
+          if(user.senha == user_password) {
+            localStorage.setItem("currentUser", JSON.stringify(user.id));
+            window.location = "./src/pages/home/index.html"
+            
+          }
+        }
+      })
+
+      
+
+      
+    })
+  
+  </script>
+</body>
+
+</html>

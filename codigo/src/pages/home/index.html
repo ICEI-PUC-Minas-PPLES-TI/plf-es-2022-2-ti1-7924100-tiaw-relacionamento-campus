@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>PucMatch Sprint2</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./estilo.css">
+  <link rel="stylesheet" href="../../assets/header/style.css">
+  <script src="../../database/database.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+
+    <nav>
+      <img src="../../assets/images/logoVazada.jpg" class="logo">
+
+      <ul>
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="../eventos/lista_eventos.html">Eventos</a></li>
+        <li><a href="../perfil/user.html">Perfil</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="home-main">
+
+    <!-- <h3>Interesses</h3> -->
+    <div class="filtros">
+      <p>Filtre por Interesses:</p>
+      <div class="interesses">
+        <button onclick='handleFilter("Carona")' type="button" class="btn btn-secondary">Carona</button>
+        <button onclick='handleFilter("Relacionamento")' type="button" class="btn btn-success">Relacionamento</button>
+        <button onclick='handleFilter("Happy Hour")' type="button" class="btn btn-danger">Happy hour</button>
+        <button onclick='handleFilter("Prática de esporte")' type="button" class="btn btn-warning">Prática de esporte</button>
+        <button onclick='handleFilter("Estudo")' type="button" class="btn btn-info">Estudo</button>
+        <button onclick='handleFilter("Jogos")' type="button" class="btn btn-info">Jogos</button>
+      </div>
+    </div>
+
+    <section class="home-container">
+      <div class="home-amigos">
+        <h3>Relação de amigos</h3>
+        <div id="amigos-container">
+          <p>Você ainda não tem amigos</p>
+        </div>
+      </div>
+      <div class="home-amigos">
+        <h3>Sugestões</h3>
+        <div id="sugestoes-container">
+          <p>Você não tem sugestões</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container footer">
+    <div class="row">
+      <div class="col-12">
+        <img src="../../assets/images/logoVazada.jpg" class="logo">
+
+      </div>
+    </div>
+
+  </footer>
+
+  <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js></script>
+  <script>
+
+    let currentUserId = localStorage.getItem("currentUser");
+    let currentUser;
+    var nomes = '';
+    for (i = 0; i < db.users.length; i++) {
+      if (db.users[i].id == currentUserId) {
+        currentUser = db.users[i];
+        break;
+      }
+    }
+
+    let amigos = "";
+    let sugestoes = "";
+
+    let isFriend = false;
+
+    db.users.forEach(user => {
+
+      for (let i = 0; i < currentUser.amigos.length; i++) {
+
+        if (user.id == currentUser.amigos[i] && user.id != currentUser.id) {
+          console.log(user.id)
+          isFriend = true;
+          break;
+        }
+      }
+
+      if (isFriend) {
+        amigos += `
+          <div class="amigo-card" onclick="showInfo(${user.id})" >
+            <div class="amigo-info">
+              <img src="${user.profile_pic}" alt="">
+              <h4>${user.nome}</h4>
+            </div>
+  
+            <p>Interesses:${user.interesses.map(interesse => (" " + interesse))}</p>
+  
+          </div>
+          `
+      }
+      else {
+        if (user.id != currentUser.id) {
+          sugestoes += `
+          <div class="amigo-card" onclick="showInfo(${user.id})" >
+            <div class="amigo-info">
+              <img src="${user.profile_pic}" alt="">
+              <h4>${user.nome}</h4>
+            </div>
+  
+            <p>Interesses:${user.interesses.map(interesse => (" " + interesse))}</p>
+  
+          </div>
+          <button class="btn btn-primary" onclick="handleAddFriend(${user.id})" >Adicionar</button>
+          `
+        }
+      }
+
+      isFriend = false;
+
+    })
+
+    document.getElementById('amigos-container').innerHTML = amigos;
+    document.getElementById('sugestoes-container').innerHTML = sugestoes;
+
+    function showInfo(id) {
+      localStorage.setItem("detailedUser", id);
+      window.location = "../user/index.html";
+    }
+
+    function handleAddFriend(id) {
+      currentUser.amigos.push(id);
+      for (let i = 0; i < db.users.length; i++) {
+        if (db.users[i].id == currentUser.id)
+          db.users[i].amigos = currentUser.amigos;
+      }
+
+      localStorage.setItem("users", JSON.stringify(db.users))
+
+      document.location.reload(true)
+    }
+
+    function handleFilter(tipo) {
+
+      let amigosInteresse = "";
+      let sugestoesInteresse = "";
+
+      db.users.forEach(user => {
+
+        for (let i = 0; i < currentUser.amigos.length; i++) {
+
+          if (user.id == currentUser.amigos[i] && user.id != currentUser.id) {
+            isFriend = true;
+            break;
+          }
+        }
+
+        user.interesses.forEach(interesse => {
+          if (interesse == tipo) {
+            if (isFriend) {
+              amigosInteresse += `
+                <div class="amigo-card" onclick="showInfo(${user.id})" >
+                  <div class="amigo-info">
+                    <img src="${user.profile_pic}" alt="">
+                    <h4>${user.nome}</h4>
+                  </div>
+
+                  <p>Interesses:${user.interesses.map(interesse => (" " + interesse))}</p>
+
+                </div>
+              `
+            }
+            else {
+              if (user.id != currentUser.id) {
+                sugestoesInteresse += `
+                  <div class="amigo-card" onclick="showInfo(${user.id})" >
+                    <div class="amigo-info">
+                      <img src="${user.profile_pic}" alt="">
+                      <h4>${user.nome}</h4>
+                    </div>
+
+                    <p>Interesses:${user.interesses.map(interesse => (" " + interesse))}</p>
+
+                  </div>
+                  <button class="btn btn-primary" onclick="handleAddFriend(${user.id})" >Adicionar</button>
+                `
+              }
+            }
+          }
+        })
+
+
+        isFriend = false;
+
+      })
+
+      document.getElementById('amigos-container').innerHTML = amigosInteresse;
+      document.getElementById('sugestoes-container').innerHTML = sugestoesInteresse;
+    }
+  </script>
+
+</body>
+
+
+</html>
