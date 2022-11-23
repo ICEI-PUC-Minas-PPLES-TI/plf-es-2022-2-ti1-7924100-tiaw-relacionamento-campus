@@ -4,7 +4,7 @@
 }
 
 .filtros {
-  margin: 20px 0 0 60px ;
+  margin: 20px 0 0 50px ;
 }
 
 .filtros p {
@@ -58,7 +58,7 @@
   margin-bottom: 20px;
   border-radius: 20px;
 
-  background-color: rgb(20, 230, 150);
+  border: 2px solid rgb(20, 230, 150);
 }
 
 .amigo-card .amigo-info {
