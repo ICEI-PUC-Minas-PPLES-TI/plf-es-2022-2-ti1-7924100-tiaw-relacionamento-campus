@@ -42,18 +42,21 @@
       let user_email = document.getElementById('user-email-login').value;
       let user_password = document.getElementById('user-password-login').value;
 
+      let achou = false;
+
       db.users.forEach(user => {
         if(user.email == user_email) {
           if(user.senha == user_password) {
             localStorage.setItem("currentUser", JSON.stringify(user.id));
+            achou = true;
             window.location = "./src/pages/home/index.html"
-            
           }
         }
       })
 
-      
-
+      if(!achou) {
+        alert("Algo deu errado! Verifique o email e senha.");
+      }
       
     })
   
