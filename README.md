@@ -9,6 +9,7 @@ Dificuldade de Relacionamento no Campus -
 * Leonardo Cesar da Silva
 * Lucas Bagno Morais Lobato
 * Welbert Luiz Silva
+* Tiago Assunção de Sousa
 
 ## Professores responsáveis
 
